@@ -154,7 +154,6 @@ public class GuiOptions extends JPanel{
 	protected void saveButtonAction() {
 		options.setDefaultSourcePath(sourcePathField.getText());
 		options.setDefaultTargetPath(targetPathField.getText());
-		//TODO Implement local chooser
 		options.setLocale((LocaleType)localeChooser.getSelectedItem());
 		options.prepareToSave();
 		try {
