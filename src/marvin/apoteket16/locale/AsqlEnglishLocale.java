@@ -67,6 +67,7 @@ public class AsqlEnglishLocale extends AsqlLocale{
 		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_TITLE.setTranslation("Save failed");
 		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_CONNECTIONS_MESSAGE.setTranslation("Unable to save database connections. Connections are not saved.");
 		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_SCHEDULES_MESSAGE.setTranslation("Unable to save schedules. Schedules are not saved.");
+		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_OPTIONS_MESSAGE.setTranslation("Unable to save options");
 		Translation.ERROR_MESSAGE_UNABLE_TO_LOAD_TITLE.setTranslation("Load failed");
 		Translation.ERROR_MESSAGE_UNABLE_TO_LOAD_SCHEDULES_MESSAGE.setTranslation("Unable to load schedules. \nPlease create a backup of ASQLSavedSchedules before you close the program to avoid loss of data.");
 		Translation.ERROR_MESSAGE_UNABLE_TO_LOAD_CONNECTIONS_MESSAGE.setTranslation("Unable to load connections. \nPlease create a backup of ASQLSavedConnections before you close the program to avoid loss of dataq.");
@@ -96,6 +97,9 @@ public class AsqlEnglishLocale extends AsqlLocale{
 		Translation.INFORMATION_MESSAGE_CONFIRM_REMOVE_TITLE.setTranslation("Remove");
 		Translation.INFORMATION_MESSAGE_CONFIRM_REMOVE_MESSAGE.setTranslation("Are you sure you wish to remove?");
 		Translation.INFORMATION_MESSAGE_NEED_INPUT.setTranslation("Need input regarding:");
+		Translation.INFORMATION_MESSAGE_CHANGES_SAVED.setTranslation("Changes successfully saved.");
+		Translation.INFORMATION_MESSAGE_RESTORE_DEFAULTS_MESSAGE.setTranslation("Are you sure you want to restore defaults?");
+		Translation.INFORMATION_MESSAGE_RESTORE_DEFAULTS_TITLE.setTranslation("Restore defaults");
 		
 		//Query status
 		Translation.QUERY_STATUS_SCRIPT_TITEL.setTranslation("Script:");

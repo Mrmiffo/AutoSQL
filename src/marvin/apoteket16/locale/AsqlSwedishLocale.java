@@ -67,6 +67,7 @@ public class AsqlSwedishLocale extends AsqlLocale {
 		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_TITLE.setTranslation("Spara misslyckades");
 		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_CONNECTIONS_MESSAGE.setTranslation("Misslyckades med att spara databaser. Databaserna är inte sparade.");
 		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_SCHEDULES_MESSAGE.setTranslation("Misslyckades med att spara scheman. Scheman inte sparade.");
+		Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_OPTIONS_MESSAGE.setTranslation("Misslyckades med att spara inställningar");
 		Translation.ERROR_MESSAGE_UNABLE_TO_LOAD_TITLE.setTranslation("Laddning misslyckades");
 		Translation.ERROR_MESSAGE_UNABLE_TO_LOAD_SCHEDULES_MESSAGE.setTranslation("Misslyckades med att ladda scheman. \nSäkerhetskopiera ASQLSavedSchedules innan du stänger av programmet annars riskerar du att förlora alla scheman.");
 		Translation.ERROR_MESSAGE_UNABLE_TO_LOAD_CONNECTIONS_MESSAGE.setTranslation("Misslyckades med att ladda databaser. \nSäkerhetskopiera ASQLSavedConnections innan du stänger av programmet annars riskerar du att förlora alla databaskopplingar.");
@@ -96,6 +97,9 @@ public class AsqlSwedishLocale extends AsqlLocale {
 		Translation.INFORMATION_MESSAGE_CONFIRM_REMOVE_TITLE.setTranslation("Ta bort");
 		Translation.INFORMATION_MESSAGE_CONFIRM_REMOVE_MESSAGE.setTranslation("Är du säker på att du vill ta bort?");
 		Translation.INFORMATION_MESSAGE_NEED_INPUT.setTranslation("Behöver input om:");
+		Translation.INFORMATION_MESSAGE_CHANGES_SAVED.setTranslation("Ändringar sparade.");
+		Translation.INFORMATION_MESSAGE_RESTORE_DEFAULTS_MESSAGE.setTranslation("Är du säker på att du vill återställa till ursprungsinställningar?");
+		Translation.INFORMATION_MESSAGE_RESTORE_DEFAULTS_TITLE.setTranslation("Återställ inställningar");
 		
 		//Query status
 		Translation.QUERY_STATUS_SCRIPT_TITEL.setTranslation("Skript:");

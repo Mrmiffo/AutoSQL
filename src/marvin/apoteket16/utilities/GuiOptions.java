@@ -23,9 +23,7 @@ import marvin.apoteket16.utilities.AsqlOptions.LocaleType;
  *
  */
 public class GuiOptions extends JPanel{
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = -1995176797909049999L;
 
 	private final JTextField targetPathField 				= new JTextField();
@@ -161,11 +159,11 @@ public class GuiOptions extends JPanel{
 		options.prepareToSave();
 		try {
 			AsqlFileSaver.saveObject(options, AsqlOptions.SAVED_OPTIONS_NAME);
+			GuiPopUpManager.showInformationMessage(Translation.INFORMATION_MESSAGE_CHANGES_SAVED.toString(), Translation.INFORMATION_MESSAGE_SUCCESS.toString());
 		} catch (IOException e) {
-			GuiPopUpManager.showErrorMessage("Unable to save options.", "Save error");
+			GuiPopUpManager.showErrorMessage(Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_OPTIONS_MESSAGE.toString(), Translation.ERROR_MESSAGE_UNABLE_TO_SAVE_TITLE.toString());
 			e.printStackTrace();
 		}
-		GuiPopUpManager.showInformationMessage("Default values updated", "Defaults saved");
 	}
 
 	//Method for creating a title for the gui components
